@@ -576,11 +576,16 @@ FOOTER
 
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 
   transition: border var(--transition);
+}
+
+.subscribe-field::placeholder {
+  color: var(--transparent-text-color);
 }
 
 .subscribe-field:focus {
@@ -699,6 +704,11 @@ MODAL
   padding-left: 42px;
 
   color: var(--primary-text-color);
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
@@ -735,6 +745,10 @@ MODAL
 
   height: 120px;
   resize: none;
+}
+
+.form-comment::placeholder {
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .form-checkbox {
